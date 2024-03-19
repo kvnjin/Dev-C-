@@ -1,0 +1,14 @@
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\bin\Debug\net8.0\Langage de programmation - intermediaire.exe
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\bin\Debug\net8.0\Langage de programmation - intermediaire.deps.json
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\bin\Debug\net8.0\Langage de programmation - intermediaire.runtimeconfig.json
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\bin\Debug\net8.0\Langage de programmation - intermediaire.dll
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\bin\Debug\net8.0\Langage de programmation - intermediaire.pdb
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.dll
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\refint\Langage de programmation - intermediaire.dll
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.pdb
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.genruntimeconfig.cache
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\ref\Langage de programmation - intermediaire.dll
