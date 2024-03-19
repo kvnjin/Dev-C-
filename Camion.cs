@@ -26,6 +26,9 @@ public class Camion : Car
         return poidsActuel;
     }
 
+    public void addListColis(){
+        
+    }
     public void addColis(Colis colis)
     {
         var PoidsFutur = PoidsActuel + colis.Poids;
