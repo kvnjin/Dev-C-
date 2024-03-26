@@ -18,9 +18,11 @@ Console.WriteLine($"Couleur du camion ; {scania2.Color}");
 
 
 
-// scania.addColis(new Colis (1, 200, true));
-// scania.addColis(new Colis (2, 100, true));
-// scania.addColis(new Colis (3, 50, true));
+scania.addColis(new Colis (1, 200, true));
+scania.addColis(new Colis (2, 100, true));
+scania.addColis(new Colis (3, 50, true));
+scania.addColis(new Colis (4, 50, true));
+scania.addColis(new Colis (5, 200, true));
 
 
 Console.WriteLine($"Le poids actuelle du camion est de {scania.PoidsActuel}");
