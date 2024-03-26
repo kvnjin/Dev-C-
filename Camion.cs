@@ -1,3 +1,4 @@
+using System.Collections;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Dynamic;
@@ -16,6 +17,26 @@ public class Camion : Car
     
     public List<Colis> ColisLst { get; set; }
 
+    public void colisList(){
+
+        Stack colisList = new Stack(ColisLst);
+        if (colisList.Count == 0){
+            Console.WriteLine("Il n'y a pas de colis dans votre camion");
+        }else {
+            Console.WriteLine( "myStack" );
+            Console.WriteLine( "\tCount:    {0}", ColisLst.Count );
+            Console.Write( "\tValues:" );
+            PrintValues( colisList );
+        }
+    }
+     public static void PrintValues( IEnumerable myCollection )  {
+      foreach ( Object obj in myCollection )
+         Console.Write( "    {0}", (obj as Colis)!.Id);
+      Console.WriteLine();
+   }
+    
+
+
     private int GetPoidsActuel()
     {
         int poidsActuel = 0;
@@ -27,7 +48,7 @@ public class Camion : Car
     }
 
     public void addListColis(){
-        
+
     }
     public void addColis(Colis colis)
     {

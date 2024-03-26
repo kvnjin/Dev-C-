@@ -12,3 +12,4 @@ C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0
 C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.pdb
 C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.genruntimeconfig.cache
 C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\ref\Langage de programmation - intermediaire.dll
+C:\Users\Kevin\Desktop\Langage de programmation - intermediaire\obj\Debug\net8.0\Langage de programmation - intermediaire.sourcelink.json
