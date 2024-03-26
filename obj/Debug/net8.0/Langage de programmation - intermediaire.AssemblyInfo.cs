@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Langage de programmation - intermediaire")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a89b9d69f7d97eb7fbdc538103d43ae928167af5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4f4f241f919eefb2935e44591a2fd51134171c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Langage de programmation - intermediaire")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Langage de programmation - intermediaire")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

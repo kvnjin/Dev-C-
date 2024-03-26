@@ -35,9 +35,12 @@ public class Car
     }
     public void StartEngine(){
         askForCheckList();
+        while (IsCheckListOk()== false){
+                askForCheckList();
+        } 
         if (IsCheckListOk()){
             Console.WriteLine("Vroum Vroum");
-        } 
+        }
         
     }
 
