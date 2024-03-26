@@ -74,6 +74,15 @@ public class Camion : Car
 
     }
 
+    public override void InitCheckList(){
+        CheckList = new Queue<Tache>();
+        CheckList.Enqueue(new Tache("Possédez vous une clée ?"));
+        CheckList.Enqueue(new Tache("Avez vous attacher votre ceinture ?"));
+        CheckList.Enqueue(new Tache("Possèdez vous de l'essence dans votre véhicule ?"));
+        CheckList.Enqueue(new Tache("Etes vous sobre ?"));
+        CheckList.Enqueue(new Tache("Avez vous votre permis camion sur vous ?"));
+    }
+
     public Camion(string marque, string modele, Colors color, int anneeDeFabrication, int poidsMax) : base(marque, modele, color, anneeDeFabrication)
     {
         PoidsMax = poidsMax;

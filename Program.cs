@@ -1,9 +1,14 @@
-﻿Car bmw = new Car("BMW", "serie5", Colors.Rouge, 2010);
-bmw.StartEngine();
+﻿// Car bmw = new Car("BMW", "serie5", Colors.Rouge, 2010);
+// bmw.StartEngine();
+
+
+
 // Console.WriteLine($"Modèle voiture : {bmw.NomComplet}");
 
 
-// Camion scania = new Camion("Scania", "x500", Colors.Vert, 2000, 500);
+Camion scania = new Camion("Scania", "x500", Colors.Vert, 2000, 500);
+
+scania.StartEngine();
 // Console.WriteLine($"Nouveau modèle de camion :{scania.NomComplet} \n le poids max du camion est de {scania.PoidsMax}");
 
 

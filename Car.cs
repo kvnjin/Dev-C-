@@ -38,10 +38,15 @@ public class Car
         while (IsCheckListOk()== false){
                 askForCheckList();
         } 
-        if (IsCheckListOk()){
             Console.WriteLine("Vroum Vroum");
-        }
-        
+    }
+
+    public virtual void InitCheckList(){
+        CheckList = new Queue<Tache>();
+        CheckList.Enqueue(new Tache("Possédez vous une clée ?"));
+        CheckList.Enqueue(new Tache("Avez vous attacher votre ceinture ?"));
+        CheckList.Enqueue(new Tache("Possèdez vous de l'essence dans votre véhicule ?"));
+        CheckList.Enqueue(new Tache("Avez vous votre permis sur vous ?"));
     }
 
     public Car(string marque, string modele, Colors color, int anneeDeFabrication)
@@ -50,11 +55,7 @@ public class Car
         Model = modele;
         Color = color;
         AnneeDeFabrication = anneeDeFabrication;
-        CheckList = new Queue<Tache>();
-        CheckList.Enqueue(new Tache("Possédez vous une clée ?"));
-        CheckList.Enqueue(new Tache("Avez vous attacher votre ceinture ?"));
-        CheckList.Enqueue(new Tache("Possèdez vous de l'essence dans votre véhicule ?"));
-        CheckList.Enqueue(new Tache("Avez vous votre permis sur vous ?"));
+        InitCheckList();
     }
 
     public void askForCheckList(){
