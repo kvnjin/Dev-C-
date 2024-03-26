@@ -1,5 +1,6 @@
  using System;
  using System.Collections;
+using Microsoft.VisualBasic;
 
 public class Car
 {
@@ -19,24 +20,28 @@ public class Car
 
     public string Task { get; private set; }
 
-    public bool IsTaskDone { get; private set; }
+    public bool IsTaskDone { get; set; }
 
     public Queue<Tache> CheckList { get; set; }
 
     public bool IsCheckListOk(){
         foreach(var item in CheckList){
             if(item.IsTaskDone == false){
-                Console.WriteLine($"Cette élément {item.Task} n'a pas été effectué ");
+                foreach(var itemNotDone in CheckList){
+                    if (itemNotDone.IsTaskDone == false){
+                        Console.WriteLine($"Cette élément {itemNotDone.Task} n'a pas été effectué ");
+                    }
+                }
                 return false;
             }
         }
-
         return true;
     }
+
     public void StartEngine(){
         askForCheckList();
         while (IsCheckListOk()== false){
-                askForCheckList();
+            askForCheckList();
         } 
             Console.WriteLine("Vroum Vroum");
     }
